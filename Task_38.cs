@@ -1,3 +1,4 @@
+//Задайте массив вещественных чисел. Найдите разницу между максимальным и минимальным элементов массива.
 int[] newarray = createRandomArray(8);
 
 Console.WriteLine(Math.Abs((getMinEl(newarray) - getMaxEl(newarray))));
